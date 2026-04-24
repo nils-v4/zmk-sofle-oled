@@ -13,9 +13,9 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:keyboard-esc$$'}
-  - {t: Q, h: \}
+  - {t: \, s: '|'}
+  - $$mdi:keyboard-tab$$
+  - Q
   - W
   - E
   - R
@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: /, s: '?'}
   - {t: '[', h: '$$mdi:apple-keyboard-shift$$', s: '{'}
   - {t: A, h: LMETA}
   - S
@@ -56,8 +56,8 @@ layers:
   - $$mdi:volume-off$$
   - LMETA
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:keyboard-tab$$
-  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - nav
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -94,8 +94,8 @@ layers:
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - '~'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:pan-down$$
+  - $$mdi:pan-up$$
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
